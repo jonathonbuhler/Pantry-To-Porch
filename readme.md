@@ -1,3 +1,5 @@
 # Week 1:
 
-We setup a Github repository for us all of us to use. This will help us see what eachother are working on and share data files. Our goal this week was to just get familiar with the data and to start cleaning it up and getting it into pandas to start visualizing.
+We setup a Github repository for the group. This allows us to keep better track of our collective progress, keep our data consistent and useable for the entire group, and share ideas between us. We used this week was to get familiar with the data and start cleaning it up into other datafiles that we thought might be useful. Our secondary goal was to start creating some visualizations to get an idea of how we might want to present this data.
+
+We were more focussed on individual work here after talking through some ideas. This allowed us to tackle work all in our own way. While unefficient, we thought this was a good idea so that we could get a variety of ideas on how to approach the structure of datafiles and types of visualizations before moving to a more concreate, unified approach next week.
