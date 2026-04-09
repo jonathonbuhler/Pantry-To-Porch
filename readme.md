@@ -10,4 +10,4 @@ We were more focused on individual work after talking through some ideas. This a
 
 # Week 2:
 
-This week was spent creating visuals individually to display the data is various ways.
+This week was spent creating visuals individually to display the data is various ways. We started working as a group on a Google Doc report that we can show to the Pantry To Porch contact.
