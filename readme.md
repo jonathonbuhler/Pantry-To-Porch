@@ -1,3 +1,6 @@
+# Request:
+**Additionally, I would be interested in knowing similar things about our clients. I am curious to know how many deliveries they've each received, how many new clients vs. returning clients we have per month, the average number of months we support a client before they stop needing our services, etc. Again, any information here would be amazing!**
+
 # Week 1:
 
 We set up a GitHub repository for the group. This allows us to keep better track of our collective progress, keep our data consistent and usable for the entire group, and share ideas between us. We used this week to get familiar with the data and start cleaning it up into other data files that we thought might be useful. Our secondary goal was to start creating some visualizations to get an idea of how we might want to present this data.
