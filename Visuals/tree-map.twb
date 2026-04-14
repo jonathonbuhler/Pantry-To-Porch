@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.26.0109.0333                               -->
+<workbook original-version='18.1' source-build='2025.3.2 (20253.26.0109.0333)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='jon-client' inline='true' name='federated.0wtd08o1jea6fl11ucl3p1oqa4xl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='jon-client' name='textscan.05g4xul0vtik0711tmms60qbyo28'>
+            <connection class='textscan' directory='/Users/jonathonbuhler/Desktop/Visual Studio/Projects/2026 Spring/CS 3820/Final/Data' filename='jon-client.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.05g4xul0vtik0711tmms60qbyo28' name='jon-client.csv' table='[jon-client#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='client' ordinal='1' />
+            <column datatype='integer' name='count' ordinal='2' />
+            <column datatype='date' name='first_time' ordinal='3' />
+            <column datatype='date' name='last_time' ordinal='4' />
+            <column datatype='integer' name='months' ordinal='5' />
+            <column datatype='string' name='bucket' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[jon-client.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[jon-client.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>client</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[client]</local-name>
+            <parent-name>[jon-client.csv]</parent-name>
+            <remote-alias>client</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[count]</local-name>
+            <parent-name>[jon-client.csv]</parent-name>
+            <remote-alias>count</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>first_time</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[first_time]</local-name>
+            <parent-name>[jon-client.csv]</parent-name>
+            <remote-alias>first_time</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_time</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[last_time]</local-name>
+            <parent-name>[jon-client.csv]</parent-name>
+            <remote-alias>last_time</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>months</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[months]</local-name>
+            <parent-name>[jon-client.csv]</parent-name>
+            <remote-alias>months</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bucket</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bucket]</local-name>
+            <parent-name>[jon-client.csv]</parent-name>
+            <remote-alias>bucket</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='jon-client.csv' datatype='table' name='[__tableau_internal_object_id__].[jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16]' role='measure' type='quantitative' />
+      <column caption='Bucket' datatype='string' name='[bucket]' role='dimension' type='nominal' />
+      <column caption='Client' datatype='string' name='[client]' role='dimension' type='nominal' />
+      <column caption='Count' datatype='integer' name='[count]' role='measure' type='quantitative' />
+      <column caption='First Time' datatype='date' name='[first_time]' role='dimension' type='ordinal' />
+      <column caption='Last Time' datatype='date' name='[last_time]' role='dimension' type='ordinal' />
+      <column caption='Months' datatype='integer' name='[months]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='jon-client.csv' id='jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16'>
+            <properties context=''>
+              <relation connection='textscan.05g4xul0vtik0711tmms60qbyo28' name='jon-client.csv' table='[jon-client#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='client' ordinal='1' />
+                  <column datatype='integer' name='count' ordinal='2' />
+                  <column datatype='date' name='first_time' ordinal='3' />
+                  <column datatype='date' name='last_time' ordinal='4' />
+                  <column datatype='integer' name='months' ordinal='5' />
+                  <column datatype='string' name='bucket' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Number of Clients Grouped by How Many Times They Used the Service (2024-2025)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='jon-client' name='federated.0wtd08o1jea6fl11ucl3p1oqa4xl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wtd08o1jea6fl11ucl3p1oqa4xl'>
+            <column-instance column='[__tableau_internal_object_id__].[jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16:qk]' pivot='key' type='quantitative' />
+            <column caption='jon-client.csv' datatype='table' name='[__tableau_internal_object_id__].[jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Bucket' datatype='string' name='[bucket]' role='dimension' type='nominal' />
+            <column-instance column='[bucket]' derivation='None' name='[none:bucket:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0wtd08o1jea6fl11ucl3p1oqa4xl].[__tableau_internal_object_id__].[cnt:jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16:qk]' min='-100' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0wtd08o1jea6fl11ucl3p1oqa4xl].[__tableau_internal_object_id__].[cnt:jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16:qk]' />
+              <size column='[federated.0wtd08o1jea6fl11ucl3p1oqa4xl].[__tableau_internal_object_id__].[cnt:jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16:qk]' />
+              <text column='[federated.0wtd08o1jea6fl11ucl3p1oqa4xl].[none:bucket:nk]' />
+              <text column='[federated.0wtd08o1jea6fl11ucl3p1oqa4xl].[__tableau_internal_object_id__].[pcto:cnt:jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16:qk]' />
+              <text column='[federated.0wtd08o1jea6fl11ucl3p1oqa4xl].[__tableau_internal_object_id__].[cnt:jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16:qk]' />
+              <lod column='[federated.0wtd08o1jea6fl11ucl3p1oqa4xl].[none:bucket:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2184D939-B37F-439C-9686-61B6C769E323}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='0' param='[federated.0wtd08o1jea6fl11ucl3p1oqa4xl].[__tableau_internal_object_id__].[cnt:jon-client.csv_CA8A6F5034D04F1F9AEDE3E6EE14DB16:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wtd08o1jea6fl11ucl3p1oqa4xl].[none:bucket:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{65CE3557-999B-4DF7-84AB-8421C456F926}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+      KAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwi
+      AABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIA
+      AEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABg
+      FAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYR
+      AAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEA
+      AKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAw
+      igAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMI
+      AAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAA
+      gFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAY
+      RQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEE
+      AACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAA
+      wCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACM
+      IgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgC
+      AABGEQAAMMp3vXcAAKzyehzlpQeu2/gEAACuk6DPq4Vl2ddtfAIAANfJSCyhupbB6zY+cwAA
+      YBQBAACjCAAAGEUAAMAoAgAARnEWEACMM4lEQs31pzTU36tpVYsUCKaMrXNdV91tFzQhJ1/+
+      YFCJRFyNNcfk8wdVXD5bjuNRPBZTy9nTY8/x+vzKL5mqgZ5O5RQUjy0nAAAwzuzbsknR0RHl
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
