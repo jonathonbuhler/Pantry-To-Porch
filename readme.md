@@ -14,4 +14,4 @@ This week was focused on creating visuals that we thought would represent our da
 
 # Week 3:
 
-The first half of the week was spent finishing our first report to send to Pantry to Porch. We handed over the visuals that we had done and explained the data to show what we had been working on so far. 
+The first half of the week was spent finishing our first report to send to Pantry to Porch. We handed over the visuals that we had done and explained the data to show what we had been working on so far. The second half was spent creating and refining the final visuals to prepare for our presentation and final report
