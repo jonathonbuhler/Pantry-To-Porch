@@ -11,3 +11,7 @@ We were more focused on individual work after talking through some ideas. This a
 # Week 2:
 
 This week was focused on creating visuals that we thought would represent our data the best. We discussed a few ideas before going and creating those visuals individually. This is a step closer to us having a collection of clean and polished visuals. We also started working on a report inside a group Google Doc to present our progress to Pantry to Porch.
+
+# Week 3:
+
+The first half of the week was spent finishing our first report to send to Pantry to Porch. We handed over the visuals that we had done and explained the data to show what we had been working on so far. The second half was spent creating and refining the final visuals to prepare for our presentation and final report
